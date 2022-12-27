@@ -148,13 +148,6 @@ div.store-name{
     background-color: rgb(173, 131, 131);
 }
 
-
-
-
-
-
-
-
 section>h2{
     text-align: center;
     font-size: 35px;
@@ -203,9 +196,7 @@ img{
     position: absolute;
 }
 
-
 .sections:hover{
-   /* background-color: #dbc1c1;*/
     background-color: #f1d7d79d;
     border:2px double #ffffff9d;
     color: #BC8F8F;
@@ -276,7 +267,6 @@ input{
     cursor: pointer;
 }
 
-
 footer{
     background-color: #BC8F8F;
     width: 100%;
@@ -293,23 +283,34 @@ footer{
     nav{
         flex-wrap: wrap;
     }
-
 	div.options{
         flex-direction: column;
     }
-
     header div.principal{
         font-size: 20px;
         flex-wrap: wrap;
         margin: auto;
         text-align: center;
     }
-
     .principal-section{
         margin-top: 35%;
     }
-
-
+    .slider{
+        margin: 250px auto;
+        width: 550px;
+        height: 350px;
+    }
+    .manual-navigation{
+        width: 550px;
+        margin-top: 300px;
+    }
+    .navigation-auto{
+        width: 550px;
+        margin-top: 300px;
+    }
+    footer{
+        bottom: -1300px;
+    }
 }
 
 @media screen and (max-width: 500px){
@@ -323,9 +324,7 @@ footer{
     header nav{
         position: relative;
     }
-
     nav ul{
-    
         flex-direction: column;
         padding: 0;
         margin-top: 15px;
@@ -340,6 +339,57 @@ footer{
         border-radius: 50px;
         font-size: 17px;
     }
+    .slider{
+        margin: 100px auto;
+        width: 300px;
+        height: 200px;
+    }
+    .manual-navigation{
+        width: 300px;
+        margin-top: 150px;
+    }
+    .navigation-auto{
+        width: 300px;
+        margin-top: 150px;
+    }
 
-
+    .landing{
+        height: 600px;
+    }
+    .landing>h1{
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        text-align: center;
+        padding: 20px 0 0 0;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .landing>p{
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        text-align: center;
+        width: 80%;
+        margin: 15px auto;
+    }
+    .div-inputs{
+        flex-direction: column;
+    }
+    .inputs{
+       margin: 5px 5px ;
+    }
+    input{
+        border: 2px solid white;
+        padding: 15px;
+        border-radius: 5px;
+        width: 200px;
+    }
+    #submit{
+        margin-top: 20px;
+        width: 230px;
+    }
+    footer{
+        bottom: -1500px;
+    }
 }
